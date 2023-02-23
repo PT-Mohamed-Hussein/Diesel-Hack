@@ -25,9 +25,9 @@ end
 
 exports('Begin', Begin)
 
-RegisterCommand('testhack', function()
-    local success = Begin('lap')
-end)
+-- RegisterCommand('testhack', function()
+--     local success = Begin('lap')
+-- end)
 
 RegisterNUICallback('HackFinished', function(data, cb)
     TriggerScreenblurFadeOut(800)
